@@ -14,6 +14,7 @@ git status
 
 # Para añadir todos nuestros cambios 
 git add -A
+
 # configuracion de nuestros datos para realizar el commit importante
 git config --global --add user.name "Sergio Ochoa Martinez"
 git config --global --add user.email "gnu.java.sergio@gmail.com"
@@ -23,10 +24,10 @@ git commit -m "commit inicial"
 
 # visualizar los commit que se hicieron
 git log
-
 ```
 
 ## Subir a nuestro repositorio remoto
+
 ```bash
 # Listar nuestros repositorios
 git remote -v 
