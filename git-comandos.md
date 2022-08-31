@@ -31,10 +31,16 @@ git log
 ```bash
 # Listar nuestros repositorios
 git remote -v 
+
 # Añadir repositorio remoto
 git remote add origin https://github.com/gnujavasergio/curso-dart.git
+
 # Eliminar repositorio remoto
 git remote remove origin
+
 # Subir codigo de nuestro repositorio local al repositorio remoto
 git push origin master
+
+# Bajar y actualizar nuestro repositorio local
+git pull origin master
 ```
